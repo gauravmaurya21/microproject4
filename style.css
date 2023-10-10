@@ -1,0 +1,98 @@
+body{
+    align-items: center;
+    margin: 0;
+    display: flex;
+    height: 100vh;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    background-color: #647299;
+}
+
+.display{
+    width: 100%;
+    height: 50px;
+    
+
+}
+
+
+input{
+    background-color: #181F32;
+    border-radius: 5px;
+}
+
+.display{
+    display: grid;
+    align-items: center;
+    justify-content: end;
+    text-align: right;
+    color: #f4f0f0;
+    font: Segoe UI;
+
+}
+
+
+.output{
+    width: 536px;
+    height: 142.73px;
+    top: 194px;
+    left: 466px;
+    border-radius: 12px;
+    margin-bottom: 5px;
+    grid-column: 1/5;
+
+}
+
+.dele{
+    border-radius: 10px;
+    background-color: #647299;
+    ;
+}
+.bnn{
+    border-radius: 10px;
+    width: 40px;
+    height: 30px;
+}
+.btn{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin: 6px 0px;
+    grid-gap: 25px 20px;
+    border: 1px lightyellow ;
+    background-color: #181F32;
+    padding: 15px;
+    border-radius: 5px;
+
+    
+    
+}
+.span-two{
+
+    background-color: #647299;
+    border-radius: 10px;
+    grid-column: span 2;
+    width: 100px;
+    height: 30px;    
+
+}
+.span{
+    background-color: #D13F30;
+    border-radius: 10px;
+    grid-column: span 2;
+    width: 100px;
+    height: 30px; 
+    
+}
+.container{
+    justify-content: left;
+    text-align: left;
+    
+}
+.text-c{
+    margin-bottom: auto;
+}
+
+
+
+
